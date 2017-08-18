@@ -1,0 +1,95 @@
+.player{
+  width: 200px;
+  height: 400px;
+  background-color: rgba(0,255,0,0.5);
+  margin-left: calc(50vw - 100px);
+  margin-top: calc(50vh - 200px);
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.screenPlayer{
+  width:90%;
+  height: 40%;
+  margin: 5%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.8);
+  position: relative;
+}
+
+#screen{
+  position: absolute;
+  width:94%;
+  height: 94%;
+  margin: 3%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.circle{
+  width:174px;
+  height: 174px;
+  border: 3px solid black;
+  border-radius: 90px;
+  margin: 10px;
+  margin-top: 40px;
+  position: relative;
+}
+#select{
+  width:44px;
+  height: 44px;
+  border: 3px solid black;
+  border-radius: 25px;
+  margin: calc(50% - 26px);
+  position: absolute;
+}
+
+
+#up{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 0 15px 20px 15px;
+border-color: transparent transparent black transparent;
+position: absolute;
+margin: calc(50% - 15px);
+margin-top: 10%;
+
+}
+
+
+#right{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 15px 0 15px 20px;
+border-color: transparent transparent transparent black;
+position: absolute;
+margin: calc(50% - 15px);
+margin-left: 80%;
+margin-top: 40%;
+}
+
+#left{
+  width: 0;
+height: 0;
+border-style: solid;
+border-width: 15px 20px 15px 0;
+border-color: transparent black transparent transparent;
+position: absolute;
+margin: calc(50% - 15px);
+margin-left: 10%;
+margin-top: 40%;
+}
+
+#down{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 15px 0 15px;
+  border-color: black transparent transparent transparent;
+position: absolute;
+margin: calc(50% - 15px);
+/*margin-left: 10%;*/
+margin-top: 80%;
+}
